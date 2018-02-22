@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_community"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="layout.Community"
+    android:background="#2a2f3c">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/thread_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:id="@+id/thread_1_comments"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/comments1" />
+
+            <TextView
+                android:id="@+id/thread_1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="I REALLY NEED SOME ADVICE"
+                android:textSize="16sp"
+                android:letterSpacing="0.2"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_toRightOf="@+id/thread_1_comments" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now. One is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+                android:textSize="14sp"
+                android:letterSpacing="0.15"
+                android:textColor="#ede9e3"
+                android:layout_below="@+id/thread_1_title"
+                android:minLines="1"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:layout_toRightOf="@+id/thread_1_comments" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/thread_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_below="@+id/thread_1">
+
+            <ImageView
+                android:id="@+id/thread_2_comments"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/comments1" />
+
+            <TextView
+                android:id="@+id/thread_2_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="I REALLY NEED SOME ADVICE"
+                android:textSize="16sp"
+                android:letterSpacing="0.2"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_toRightOf="@+id/thread_2_comments" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now. One is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+                android:textSize="14sp"
+                android:letterSpacing="0.15"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:layout_below="@+id/thread_2_title"
+                android:layout_toRightOf="@+id/thread_2_comments" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/thread_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_below="@+id/thread_2">
+
+            <ImageView
+                android:id="@+id/thread_3_comments"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/comments1" />
+
+            <TextView
+                android:id="@+id/thread_3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="I REALLY NEED SOME ADVICE"
+                android:textSize="16sp"
+                android:letterSpacing="0.2"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_toRightOf="@+id/thread_3_comments" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now. One is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+                android:textSize="14sp"
+                android:letterSpacing="0.15"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:layout_below="@+id/thread_3_title"
+                android:layout_toRightOf="@+id/thread_3_comments" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/thread_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_below="@+id/thread_3">
+
+            <ImageView
+                android:id="@+id/thread_4_comments"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/comments1" />
+
+            <TextView
+                android:id="@+id/thread_4_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="I REALLY NEED SOME ADVICE"
+                android:textSize="16sp"
+                android:letterSpacing="0.2"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_toRightOf="@+id/thread_4_comments" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now. One is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+                android:textSize="14sp"
+                android:letterSpacing="0.15"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:layout_below="@+id/thread_4_title"
+                android:layout_toRightOf="@+id/thread_4_comments" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/thread_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_below="@+id/thread_4">
+
+            <ImageView
+                android:id="@+id/thread_5_comments"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/comments1" />
+
+            <TextView
+                android:id="@+id/thread_5_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="I REALLY NEED SOME ADVICE"
+                android:textSize="16sp"
+                android:letterSpacing="0.2"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_toRightOf="@+id/thread_5_comments" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now. One is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+                android:textSize="14sp"
+                android:letterSpacing="0.15"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:layout_below="@+id/thread_5_title"
+                android:layout_toRightOf="@+id/thread_5_comments" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/thread_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_below="@+id/thread_5">
+
+            <ImageView
+                android:id="@+id/thread_6_comments"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/comments1" />
+
+            <TextView
+                android:id="@+id/thread_6_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="I REALLY NEED SOME ADVICE"
+                android:textSize="16sp"
+                android:letterSpacing="0.2"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_toRightOf="@+id/thread_6_comments" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now. One is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+                android:textSize="14sp"
+                android:letterSpacing="0.15"
+                android:textColor="#ede9e3"
+                android:minLines="1"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:layout_below="@+id/thread_6_title"
+                android:layout_toRightOf="@+id/thread_6_comments" />
+
+        </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Journal"
+    android:orientation="vertical"
+    android:background="#ede9e3"
+    android:weightSum="1">
+
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/title"
+        android:hint="ENTER TITLE"
+        android:textAllCaps="true"
+        android:minLines="1"
+        android:maxLines="1"
+        android:visibility="gone"
+        android:layout_weight=".01"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="ENTER BODY"
+        android:minLines="1"
+        android:maxLines="4"
+        android:visibility="gone"
+        android:ems="10"
+        android:id="@+id/body"
+        android:layout_weight=".01"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:text="N E W   E N T R Y"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/button"
+        android:layout_weight=".025"
+        android:textColor="#ede9e3"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        />
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#ede9e3"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:orientation="vertical"
+        android:id="@android:id/list"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        ></ListView>
+
+</LinearLayout>
+
+

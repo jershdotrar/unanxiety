@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_thread"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sh.jer.unanxiety.Thread"
+    android:background="#2a2f3c" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+    <RelativeLayout
+        android:id="@+id/thread_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_centerHorizontal="true"
+            android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now.\n \nOne is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+            android:textColor="#ede9e3" />
+
+        <TextView
+            android:id="@+id/replies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 REPLIES"
+            android:textSize="15sp"
+            android:textColor="#6db8ba"
+            android:layout_below="@+id/body"
+            android:layout_toRightOf="@+id/arrow"/>
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_right"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_alignLeft="@id/body"
+            android:layout_below="@+id/body"/>
+
+        <Button
+            android:id="@+id/reply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColor="#ede9e3"
+            android:text="R E P L Y"
+            android:textSize="15sp"
+            android:background="@drawable/rounded_button"
+            android:layout_alignRight="@+id/body"
+            android:layout_below="@+id/body"/>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/reply_button"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="#ede9e3"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/thread_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_centerHorizontal="true"
+            android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now.\n \nOne is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+            android:textColor="#ede9e3" />
+
+        <TextView
+            android:id="@+id/replies2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 REPLIES"
+            android:textSize="15sp"
+            android:textColor="#6db8ba"
+            android:layout_below="@+id/body2"
+            android:layout_toRightOf="@+id/arrow2"/>
+
+        <ImageView
+            android:id="@+id/arrow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_right"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_alignLeft="@id/body2"
+            android:layout_below="@+id/body2"/>
+
+        <Button
+            android:id="@+id/reply_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColor="#ede9e3"
+            android:text="R E P L Y"
+            android:textSize="15sp"
+            android:background="@drawable/rounded_button"
+            android:layout_alignRight="@+id/body2"
+            android:layout_below="@+id/body2"/>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/reply_button2"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="#ede9e3"/>
+
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/thread_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="I have noticed I’ve been having lots of triggers related to my anxiety and I just don’t know how to handle them right now.\n \nOne is lack of sleep for sure, and at the moment it’s midterms so I’m just too busy to sleep, so I get an anxiety attack and can’t even work at all. How do I handle my trigger while also getting all my work done on time?"
+                    android:textColor="#ede9e3" />
+
+                <TextView
+                    android:id="@+id/replies3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 REPLIES"
+                    android:textSize="15sp"
+                    android:textColor="#6db8ba"
+                    android:layout_below="@+id/body3"
+                    android:layout_toRightOf="@+id/arrow3"/>
+
+                <ImageView
+                    android:id="@+id/arrow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/arrow_right"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_alignLeft="@id/body3"
+                    android:layout_below="@+id/body3"/>
+
+                <Button
+                    android:id="@+id/reply_button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:textColor="#ede9e3"
+                    android:text="R E P L Y"
+                    android:textSize="15sp"
+                    android:background="@drawable/rounded_button"
+                    android:layout_alignRight="@+id/body3"
+                    android:layout_below="@+id/body3"/>
+
+            </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

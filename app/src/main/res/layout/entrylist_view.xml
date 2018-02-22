@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:text="Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2a2f3c"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="8dp"
+            android:maxLines="2"
+            android:minLines="1"
+            android:ellipsize="end"
+            android:id="@+id/journal_entry_title" />
+
+        <TextView
+            android:text="Body text blah blah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2a2f3c"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:id="@+id/journal_entry_body" />
+
+        <Button
+            android:text="D E L E T E"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:id="@+id/journal_delete_button"
+            android:textColor="#ede9e3"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_button" />
+    </LinearLayout>
+</LinearLayout>

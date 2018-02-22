@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#6db8ba"
+    tools:context="sh.jer.unanxiety.MuscleRelaxation">
+
+    <TextView
+        android:id="@+id/text_relax_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:text="Repeatedly tense then relax your muscles\none muscle group at a time. Start from\nyour toes, and work your way up."
+        android:textSize="16sp"
+        android:textColor="#ede9e3"
+        android:layout_above="@+id/text_relax"/>
+
+    <TextView
+        android:id="@+id/text_relax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Tense muscles"
+        android:textSize="24sp"
+        android:layout_marginBottom="60dp"
+        android:textColor="#ede9e3"
+        android:letterSpacing="0.3"
+        android:textAllCaps="true"
+        android:layout_above="@+id/anim_circle"/>
+
+    <ImageView
+        android:id="@+id/anim_circle"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle"/>
+
+</RelativeLayout>

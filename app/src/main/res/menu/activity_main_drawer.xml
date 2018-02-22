@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:background="#6db8ba">
+        <item
+            android:id="@+id/nav_home"
+            android:title="H O M E" />
+        <item
+            android:id="@+id/nav_journal"
+            android:title="J O U R N A L"/>
+        <item
+            android:id="@+id/nav_exercises"
+            android:title="E X E R C I S E S" />
+        <item
+            android:id="@+id/nav_community"
+            android:title="C O M M U N I T Y" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:title="E M E R G E N C Y   C O N T A C T S" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:title="M E D I C A T I O N   R E M I N D E R" />
+
+       <!-- <item
+            android:id="@+id/nav_settings"
+            android:title="S E T T I N G S" />-->
+
+    </group>
+
+
+</menu>

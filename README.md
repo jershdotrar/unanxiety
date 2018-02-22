@@ -1,0 +1,3 @@
+Unanxiety is an anxiety management app designed by Anna Griggs ( https://www.agriggsdesign.com/ ) and developed by me ( https://jer.sh/ ). This is the initial version created for a university senior design portfolio review. The intent of the app was to create a simple, yet beautiful and elegant tool to help manage anxiety and/or depression, as in our experience most anxiety management apps either had very poor design and functionality, or had extensive features locked behind paywalls. 
+
+As the app was my first experience with programming, and it did not need to feature online capabilities for demo purposes, it does not. It was merely meant to showcase design skills, however I will be reworking the entire project to have actual demonstrable function in the coming months.

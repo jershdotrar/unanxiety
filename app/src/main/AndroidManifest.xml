@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sh.jer.unanxiety">
+
+   <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dad" />
+        <activity android:name=".Mom" />
+        <activity android:name=".Therapist" />
+        <activity android:name=".NewMedication" />
+        <activity android:name=".Thread" />
+        <activity android:name=".Cycling" />
+        <activity android:name=".Sleeping" />
+        <activity android:name=".MuscleRelaxation" />
+        <activity android:name=".DeepBreathing" />
+        <activity android:name=".Walking" />
+        <activity android:name=".Cycling15" />
+        <activity android:name=".Cycling30" />
+        <activity android:name=".Cycling60" />
+        <activity android:name=".Cycling120" />
+        <activity android:name=".Walking15" />
+        <activity android:name=".Walking30" />
+        <activity android:name=".Walking60" />
+        <activity android:name=".Walking120"></activity>
+    </application>
+
+</manifest>
